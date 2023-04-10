@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    static int solveMeFirst(int A, int B) {
+        return A+B;
+   }
+
+   
+ public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int _a = in.nextInt();
+        int _b = in.nextInt();
+        int sum = solveMeFirst(_A, _B);
+        System.out.println(sum);
+   }
+}
